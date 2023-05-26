@@ -31,7 +31,7 @@ public class Login {
 		Thread.sleep(3000);
 				
 		//Identify web elements-user login without entering credintials
-		System.out.println("testing if user can login without entering credintials");
+		System.out.println("testing if user can login without entering the credintials");
 		WebElement loginbtn = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 		loginbtn.click();
 		Thread.sleep(2000);
